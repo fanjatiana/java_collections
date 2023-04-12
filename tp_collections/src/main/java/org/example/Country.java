@@ -1,2 +1,13 @@
-package org.example;public class Country {
+package org.example;
+
+public class Country {
+    private String name;
+
+    public Country(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
